@@ -1,0 +1,82 @@
+{
+    "EnvironmentVariables":  [
+                                 {
+                                     "SchemaName":  "cat_clientId",
+                                     "Value":  "#{environmentvariable.cat_clientId}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_DependentEnvironmentUrl",
+                                     "Value":  "#{environmentvariable.cat_DependentEnvironmentUrl}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_DependentEnvironmentUserId",
+                                     "Value":  "#{environmentvariable.cat_DependentEnvironmentUserId}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_DepndentEnvironmentSecretName",
+                                     "Value":  "#{environmentvariable.cat_DepndentEnvironmentSecretName}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_GitHubOrgPlanExist",
+                                     "Value":  "#{environmentvariable.cat_GitHubOrgPlanExist}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_OrgLanguage",
+                                     "Value":  "#{environmentvariable.cat_OrgLanguage}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_OrgName",
+                                     "Value":  "#{environmentvariable.cat_OrgName}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_TemplateRepoName",
+                                     "Value":  "#{environmentvariable.cat_TemplateRepoName}#"
+                                 },
+                                 {
+                                     "SchemaName":  "cat_WebhookUrl",
+                                     "Value":  "#{environmentvariable.cat_WebhookUrl}#"
+                                 }
+                             ],
+    "ConnectionReferences":  [
+                                 {
+                                     "LogicalName":  "new_sharedcommondataserviceforapps_06411",
+                                     "ConnectionId":  "#{connectionreference.new_sharedcommondataserviceforapps_06411}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                                 },
+                                 {
+                                     "LogicalName":  "new_sharedpowerappsforappmakers_87b9a",
+                                     "ConnectionId":  "#{connectionreference.new_sharedpowerappsforappmakers_87b9a}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_powerappsforappmakers"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_AdminConnection",
+                                     "ConnectionId":  "#{connectionreference.cat_AdminConnection}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_powerplatformforadmins"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_ApprovalConnection",
+                                     "ConnectionId":  "#{connectionreference.cat_ApprovalConnection}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_approvals"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_CDSConnection",
+                                     "ConnectionId":  "#{connectionreference.cat_CDSConnection}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_ContentConversionConnection",
+                                     "ConnectionId":  "#{connectionreference.cat_ContentConversionConnection}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_conversionservice"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_GitHub",
+                                     "ConnectionId":  "#{connectionreference.cat_GitHub}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_github"
+                                 },
+                                 {
+                                     "LogicalName":  "cat_sharedoffice365_4ee46",
+                                     "ConnectionId":  "#{connectionreference.cat_sharedoffice365_4ee46}#",
+                                     "ConnectorId":  "/providers/Microsoft.PowerApps/apis/shared_office365"
+                                 }
+                             ]
+}
